@@ -19,15 +19,16 @@ public class KonversiSuhu {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-                double fahrenheit , celcius ;
+                double fahrenheit ;
 
         Scanner input = new Scanner(System.in);
 
         System.out.println("masukan suhu dalam celcius");
+        System.out.println("10");
 
-        celcius = input.nextInt();
+        double celcius = 10;
 
-        fahrenheit = celcius * 9/5 + 32;
+        fahrenheit = celcius *9/5 + 32;
 
         System.out.println("Hasil konversi suhu dari celcius ke fahrenheit:" +fahrenheit);
     }
